@@ -1,4 +1,4 @@
-apiVersion: v1
+por:30apiVersion: v1
 kind: Service
 metadata:
   labels:
@@ -10,5 +10,6 @@ spec:
     - port: 8080
       targetPort: 5000
       protocol: TCP
+      nodePort: 30092
   selector:
     app: javatomcat
