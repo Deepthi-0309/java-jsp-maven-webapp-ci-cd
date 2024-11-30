@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: javaapp
-        image: neehar2601/javaapp:v1
+        image: deepthidocker0704/javatomcat
         ports:
         - containerPort: 5000
